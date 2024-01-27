@@ -3,21 +3,21 @@
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
-  background-color: #121212;
+  background: linear-gradient(135deg, #646464, #0f0f0f);
   max-width: 81vw;
-  margin-left: 335px;
+  margin-left: 330px;
   margin-right: 56px;
 }
 
 .playlist {
-  margin: 24px;
+  margin: 24px 0 16px 100px;
 }
 
 .playlist #greeting {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .playlist .session {
@@ -38,7 +38,7 @@
 }
 
 .offer__scroll-container::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 /* FIM SCROLL */
 
@@ -125,12 +125,6 @@
 }
 
 /* CARD ARTISTA */
-
-.artist {
-  --column-count: 5;
-  --grid-gap: 24px;
-  --min-container-width: 372px;
-}
 
 .hidden {
   display: none;

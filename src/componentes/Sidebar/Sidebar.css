@@ -8,13 +8,12 @@
 }
 
 .sidebar__navigation {
-  background-color: #121212;
+  background: linear-gradient(135deg, #646464, #0f0f0f);
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
 
 .logo {
-  background: #121212;
   display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
@@ -35,7 +34,7 @@
 }
 
 .sidebar nav ul li a {
-  color: #b3b3b3;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -46,13 +45,13 @@
 }
 
 .library {
-  background-color: #121212;
+  background: linear-gradient(135deg, #646464, #0f0f0f);
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding: 4px 8px;
-  color: #b3b3b3;
+  color: #ffffff;
   font-weight: 600;
   font-size: 14px;
   margin-top: 10px;
@@ -66,7 +65,7 @@
 .library .library__button {
   display: flex;
   margin-right: 10px;
-  color: #b3b3b3;
+  color: #ffffff;
   background-color: transparent;
   border: 0px;
   font-size: 14px;
@@ -80,7 +79,7 @@
 .library .library__button .fa {
   font-size: 20px;
   font-weight: 300;
-  color: #b3b3b3;
+  color: #ffffff;
   margin-right: 10px;
   padding-right: 8px;
 }
@@ -94,13 +93,13 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  background-color: #242424;
-  color: #b3b3b3;
+  color: #ffffff;
   font-weight: 600;
   font-size: 14px;
   margin: 8px 0;
   padding: 16px 20px;
   border-radius: 10px;
+  border: 1px solid #bdbcbc;
 }
 
 .section-playlist .section-playlist__content {
@@ -143,7 +142,7 @@
 }
 
 .sidebar .cookies a {
-  color: #b3b3b3;
+  color: #ffffff;
   font-weight: 500;
   font-size: 10px;
   text-decoration: none;
@@ -156,7 +155,7 @@
 .languages .languages__button {
   align-items: center;
   background-color: transparent;
-  border: 1px solid #878787;
+  border: 1px solid #a09f9f;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
