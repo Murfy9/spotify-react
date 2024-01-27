@@ -31,7 +31,11 @@
   font-size: 16px;
   font-weight: bold;
   padding: 14px 30px;
-  border: 0px;
+  border: 0;
   border-radius: 40px;
   cursor: pointer;
+}
+
+.footer-premium button:hover {
+  transform: scale(1.04);
 }

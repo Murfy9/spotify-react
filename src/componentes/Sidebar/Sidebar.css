@@ -137,6 +137,10 @@
   width: 113px;
 }
 
+.section-playlist__content .section-playlist__button:hover {
+  transform: scale(1.04);
+}
+
 .sidebar .cookies {
   margin: 25px 20px;
 }
